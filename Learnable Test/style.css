@@ -1,0 +1,318 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: calc(100vw / 1920);
+}
+
+body {
+  width: auto;
+}
+
+nav {
+  /* width: 100%; */
+  margin: 39rem 96rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-details {
+  flex: 1;
+}
+
+.brand-info {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.log-in.sign-up {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font: 400 48rem/72rem 'Poppins', sans-serif;
+}
+
+.brand-info,
+#log-in {
+  font: 400 24rem/36rem 'Poppins', sans-serif;
+}
+
+#log-in {
+  padding-left: 259rem;
+}
+
+button {
+  width: 195rem;
+  height: 76rem;
+  border-radius: 25rem;
+  color: #fff;
+  font: 500 24rem/36rem 'Poppins', sans-serif;
+  background-color: #e87a14;
+  border: none;
+}
+
+main {
+  max-width: 1575rem;
+  max-height: 784rem;
+  display: flex;
+  margin-left: 100rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 77rem;
+  margin-bottom: 144.3rem;
+}
+
+.brand-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-description.title {
+  font: 600 30rem/45rem 'Poppins', sans-serif;
+  color: rgba(68, 195, 235, 0.8);
+  text-transform: uppercase;
+}
+
+.brand-description.clarification {
+  font: 300 48rem/72rem 'Poppins', sans-serif;
+  width: 910rem;
+  height: 230rem;
+}
+
+img {
+  width: 627rem;
+  height: 782.698rem;
+}
+
+#buy-now {
+  margin-top: 59rem;
+}
+
+h2 {
+  font: 500 32rem/48rem 'Poppins', sans-serif;
+}
+
+.log-in.guide {
+  font: 400 16rem/24rem 'Poppins', sans-serif;
+}
+
+section {
+  background: url(Assets/Images/luke-chesser-tgrBcf7S_dY-unsplash\ 1.png)
+    rgba(17, 17, 17, 0.2);
+  backdrop-filter: blur(9px);
+  width: 1919rem;
+  height: 1080rem;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+svg {
+  position: fixed;
+  top: 65rem;
+  left: 1784rem;
+  cursor: pointer;
+}
+
+.overlay {
+  background-color: white;
+  width: 1160rem;
+  height: 846rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 24rem;
+}
+
+.log-in.structure {
+  display: flex;
+  flex-direction: column;
+  max-width: 580rem;
+  height: 846rem;
+  align-items: center;
+  padding: 56rem 89rem 60rem;
+}
+
+.connect {
+  width: 402rem;
+  height: 72rem;
+  background-color: #fff;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 40rem;
+  margin-top: 24rem;
+}
+
+.connect .social-media {
+  vertical-align: middle;
+  margin-right: 16rem;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media.facebook,
+.social-media.apple,
+.social-media.twitter,
+svg {
+  width: 32rem;
+  height: 32rem;
+}
+
+.social-media.google,
+.social-media.email,
+.social-media.phone {
+  width: 24rem;
+  height: 24rem;
+}
+
+.connect:nth-of-type(1) {
+  margin-top: 48rem;
+}
+
+#orange {
+  width: 580rem;
+  height: 846rem;
+  border-radius: 0 24rem 24rem 0;
+}
+
+#logo {
+  width: 48rem;
+  height: 48rem;
+}
